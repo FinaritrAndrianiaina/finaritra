@@ -1,11 +1,14 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import { concurrent } from 'svelte-typewriter';
-	import { GithubIcon,LinkedinIcon } from 'svelte-feather-icons';
-	import Markee from '$lib/components/Markee.svelte';
+	import { GithubIcon, LinkedinIcon } from 'svelte-feather-icons';
+	import Markee from '$lib/components/Markee/Markee.svelte';
 </script>
 
-<nav class="flex justify-between py-6 bg-secondary px-16 w-full">
+<svelte:body  />
+<nav
+	class="flex justify-between z-0 py-6 bg-secondary px-16 w-full"
+>
 	<div style="--cursor-width:1ch;--cursor-color:white;" class="min-h-12">
 		<h1
 			use:concurrent={{
@@ -17,7 +20,7 @@
 			}}
 			class="text-5xl text-secondary-content font-bold cursor-default"
 		>
-			Hello
+			Finaritra
 		</h1>
 	</div>
 	<div class="flex justify-around  space-x-1">
@@ -26,33 +29,38 @@
 	</div>
 </nav>
 
-<div class="fixed z-50 left-auto right-10 top-0">
+<div class="fixed h-screen z-50 left-auto right-5 top-0">
 	<div class="vertical-box">
 		<div>
 			<div class="absolute w-full h-10 bg-gradient-to-b from-base-100 to-transparent z-10" />
-			<Markee repeat={30} duration={120} direction="vertical">
+			<Markee repeat={10} duration={100} direction="vertical">
 				<a
 					href="mailto:finaritrandrianiaina@gmail.com"
 					class="mx-1 py-1 italic align-middle font-semibold text-xl hover:text-primary-content"
-					>finaritrandrianiaina@gmail.com</a
+				>
+					finaritrandrianiaina@gmail.com
+				</a>
+				<a
+					href="https://github.com/FinaritrAndrianiaina"
+					class="mx-1 py-1 w-fit text-xl hover:text-primary-content"
+					><GithubIcon class="inline hover-bounce hover-bounce-vertical" /></a
 				>
 				<a
-					href="mailto:finaritrandrianiaina@gmail.com"
-					class="mx-1 py-1 font-semibold w-fit text-xl hover:text-primary-content"
-					><GithubIcon class="inline" /></a
-				>
-				<a
-					href="mailto:finaritrandrianiaina@gmail.com"
-					class="mx-1 py-1 font-semibold text-xl hover:text-primary-content"><LinkedinIcon class="inline"/></a
+					href="https://www.linkedin.com/in/finaritrandrianiaina"
+					class="mx-1 py-1 text-xl hover:text-primary-content"
+					><LinkedinIcon class="inline hover-bounce hover-bounce-vertical" /></a
 				>
 			</Markee>
 		</div>
 	</div>
 </div>
 
-<div class="my-3 min-h-100">
+<div  class="my-3 -z-10 min-h-100">
 	<slot />
 </div>
+<footer class="flex flex-col justify-end h-44 self-center bg-gradient-to-t from-secondary via-transparent  to-transparent">
+	<h1 class="text-center text-primary-content">©️ Made with Svelte, Tailwind and DaisyUI</h1>
+</footer>
 
 <style>
 	.vertical-box {

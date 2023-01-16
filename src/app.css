@@ -1,7 +1,19 @@
+@import "atropos/css/min";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .vertical {
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
+}
+
+.hover-bounce{
+    @apply transition-all;
+    @apply ease-linear;
+    @apply delay-75;
+}
+.hover-bounce-vertical:hover {
+    @apply -translate-y-1;
+}
+.hover-bounce-horizontal:hover {
+    @apply -translate-x-5;
 }

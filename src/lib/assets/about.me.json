@@ -1,0 +1,84 @@
+{
+    "timeline": [
+      {
+        "date":2022,
+        "events":[
+          {
+            "title":"Mai: PULSE",
+            "description":"Je commence une alternance en tant qu'ingénieur d'étude et développement chez <a style=\"font-weight:bold;color:white;background-color:red; padding:1px; border-radius:3px;\" href=\"https://www.pulse.mg/\">PULSE</a>. "
+          }
+        ]
+      },
+      {
+        "date": 2021,
+        "events": [
+          {
+            "title":"Novembre: Master en Management des Systèmes d'Information",
+            "description":"Rejoins le programme de Master en alternance de l'ESTI"
+          },
+          {
+            "title":"Septembre: Licence en informatique et télécommunication",
+            "description":"Mémoire de Licence intitulé Etude de faisabilité et prototypage d'une solution blockchain pour les marchands du réseau Dizzitup"
+          },
+          {
+            "title": "Avril-Juillet: Stage dans une startup fintech",
+            "description": "Je travaille sur la mise en place d'un système de paiement décentralisé sans frontière adapter pour l'Afrique"
+          }
+        ]
+      },
+      {
+        "date": 2020,
+        "events": [
+          {
+            "title": "-----",
+            "description": "😷. Confiné à la maison je passe mon temps à regarder des films et apprendre des trucs."
+          }
+        ]
+      },
+      {
+        "date": 2019,
+        "events": [
+          {
+            "title": "FIRST Global Challenge 2019 Dubaï 🤖",
+            "description": "FIRST Global Challenge est une compétition internationale de robotique réunissant des jeunes venant plus de 192 pays à travers le monde afin d'initier les jeunes aux <strong>STEM</strong> (Science Technologies Education Mathematics). J'avais la résponsabilité de programmer et maintenir le programme JAVA du robot de l'équipe malgache."
+          }
+        ]
+      },
+      {
+        "date": 2017,
+        "events": [
+          {
+            "title": "Entrée à l'université",
+            "description": "Aprés le Bacc et quelques notions de programmation, j'ai décidé de suivre un parcours en <kbd>Eléctronique et Système informatique</kbd> "
+          }
+        ]
+      },
+      {
+        "date": 2016,
+        "events": [
+          {
+            "title": "Premier pas dans la programmation 💻",
+            "description": "J'ai commencé à programmer en terminale et commencer à apprendre Javascript "
+          }
+        ]
+      },
+      {
+        "date": 2005,
+        "events": [
+          {
+            "title": "Mes premiers pas avec un ordinateur 🎮",
+            "description": "👀"
+          }
+        ]
+      },
+      {
+        "date": 2001,
+        "events": [
+          {
+            "title": "Naissance 👶🍼",
+            "description": "Tout à commencer ici 🔥!!!"
+          }
+        ]
+      }
+    ]
+  }

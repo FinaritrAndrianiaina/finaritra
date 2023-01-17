@@ -34,7 +34,7 @@
 	<div class="lg:w-1/2 w-full lg:px-0 px-4 self-center">
 		<section>
 			<h5 class="text-2xl top-0 z-10 font-thin bg-base">
-				<span class="font-bold">1.</span> About Me
+				<span class="font-bold">1.</span> A propos de moi
 			</h5>
 			<div class="flex flex-wrap">
 				<p class="text-center ">
@@ -51,7 +51,7 @@
 		</section>
 		<section class="flex flex-col">
 			<h5 class="text-2xl my-5 bg-base  top-0 font-thin w-1/2 ">
-				<span class="font-bold">2.</span> Work
+				<span class="font-bold">2.</span> Parcours
 			</h5>
 			<div class="">
 				<Timeline />

@@ -17,11 +17,11 @@
 			use:scramble={{ scrambleDuration: 1000 }}
 			class="self-center w-5/6 py-10 flex text-center flex-col bg-base-100"
 		>
-			<h5 data-atropos-offset="-5" class="text-4xl">🌄 Hello world!!</h5>
-			<div class="text-6xl  font-extrabold text-primary">
+			<h5 data-atropos-offset="-5" class="lg:text-4xl text-2xl">🌄 Hello world!!</h5>
+			<div class="lg:text-6xl text-5xl  font-extrabold text-primary">
 				<span>Je m'appelle </span><span class="underline">Finaritra</span>,
 			</div>
-			<h2 class="text-5xl font-extrabold text-primary-content">Développeur Backend & Frontend</h2>
+			<h2 class="lg:text-5xl text-xl font-extrabold text-primary-content">Développeur Backend & Frontend</h2>
 		</div>
 		<div data-atropos-offset="5" class="flex justify-center space-x-2 bg-base-100">
 			<a href="/cv_finaritra.pdf" class="btn btn-outline">curriculum vitae</a>
@@ -31,13 +31,13 @@
 </Atropos>
 <main class="container mx-auto my-1  flex flex-col ">
 	<hr class="border-primary mb-3" />
-	<div class="w-1/2 self-center">
+	<div class="lg:w-1/2 w-full lg:px-0 px-4 self-center">
 		<section>
 			<h5 class="text-2xl top-0 z-10 font-thin bg-base">
 				<span class="font-bold">1.</span> About Me
 			</h5>
 			<div class="flex flex-wrap">
-				<p class="text-center">
+				<p class="text-center ">
 					Bonjour le monde,<br /> je m'appelle
 					<span class="italic font-semibold"
 						>ANDRIANIAINA <span class="underline">Finaritra</span> Haritiana</span

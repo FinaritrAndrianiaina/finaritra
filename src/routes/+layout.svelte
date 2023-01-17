@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import { concurrent } from 'svelte-typewriter';
+	import concurrent from 'svelte-typewriter/modes/concurrent';
 	import { GithubIcon, LinkedinIcon } from 'svelte-feather-icons';
 	import Markee from '$lib/components/Markee/Markee.svelte';
 </script>
@@ -9,8 +9,8 @@
 <nav
 	class="flex justify-between z-0 py-6 bg-secondary px-16 w-full"
 >
-	<div style="--cursor-width:1ch;--cursor-color:white;" class="min-h-12">
-		<h1
+	<div  class="min-h-12">
+		<h1 style="--cursor-width:1ch;--cursor-color:white;"
 			use:concurrent={{
 				interval: 100,
 				cursor: true,

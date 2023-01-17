@@ -1,5 +1,5 @@
 <script>
-	import { scramble } from 'svelte-typewriter';
+	import scramble from 'svelte-typewriter/modes/scramble';
 	import Timeline from '$lib/components/timeline/Timeline.svelte';
 	import Atropos from 'atropos/svelte';
 	let x = 0,

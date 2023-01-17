@@ -7,9 +7,9 @@
 
 <svelte:body  />
 <nav
-	class="flex justify-between z-0 py-6 bg-secondary px-16 w-full"
+	class="flex justify-between z-0 py-6 bg-secondary lg:px-16 px-13 w-full"
 >
-	<div  class="min-h-12">
+	<div  >
 		<h1 style="--cursor-width:1ch;--cursor-color:white;"
 			use:concurrent={{
 				interval: 100,
@@ -18,7 +18,7 @@
 				keepCursorOnFinish: true,
 				showCursorOnDelay: true
 			}}
-			class="text-5xl text-secondary-content font-bold cursor-default"
+			class="lg:text-5xl text-xl text-secondary-content font-bold cursor-default"
 		>
 			Finaritra
 		</h1>

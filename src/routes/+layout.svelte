@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import concurrent from 'svelte-typewriter/modes/concurrent';
-	import { GithubIcon, LinkedinIcon } from 'svelte-feather-icons';
+	import { GithubIcon, LinkedinIcon,MenuIcon } from 'svelte-feather-icons';
 	import Markee from '$lib/components/Markee/Markee.svelte';
 </script>
 
@@ -41,30 +41,19 @@
 				</h1>
 			</div>
 			<div class="hidden justify-around  space-x-1 lg:flex ">
-				<a href="/cv_finaritra.pdf" class="btn btn-outline">curriculum vitae</a>
-				<a href="mailto:finaritrandrianiaina@gmail.com" class="btn">Dire bonjour</a>
+				<a href="/cv_finaritra.pdf" class="btn btn-outline text-secondary-content">curriculum vitae</a>
+				<a href="mailto:finaritrandrianiaina@gmail.com" class="btn hover:btn-primary text-secondary-content">Dire bonjour</a>
 			</div>
 			<div class="flex-none lg:hidden">
 				<label for="my-drawer-3" class="btn btn-square btn-ghost">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						class="inline-block w-6 h-6 stroke-current"
-						><path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M4 6h16M4 12h16M4 18h16"
-						/></svg
-					>
+					<MenuIcon class="text-secondary-content"/>
 				</label>
 			</div>
 		</nav>
 		<div class="my-3 -z-10 min-h-100">
 			<slot />
 		</div>
-		<footer class="footer footer-center p-10 pb-3 bg-gradient-to-t from-secondary to-transparent text-secondary-content">
+		<footer class="footer footer-center py-10 bg-primary text-primary-content">
 			<div>
 			  <h1 class="text-3xl font-bold">
 				Finaritra

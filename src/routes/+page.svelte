@@ -21,11 +21,11 @@
 			<div class="lg:text-6xl text-5xl  font-extrabold text-primary">
 				<span>Je m'appelle </span><span class="underline">Finaritra</span>,
 			</div>
-			<h2 class="lg:text-5xl text-xl font-extrabold text-primary-content">Développeur Backend & Frontend</h2>
+			<h2 class="lg:text-5xl text-xl font-extrabold text-primary opacity-80">Développeur Backend & Frontend</h2>
 		</div>
 		<div data-atropos-offset="5" class="flex justify-center space-x-2 bg-base-100">
-			<a href="/cv_finaritra.pdf" class="btn btn-outline">curriculum vitae</a>
-			<a href="mailto:finaritrandrianiaina@gmail.com" class="btn">Dire bonjour</a>
+			<a href="/cv_finaritra.pdf" class="btn btn-outline shadow-sm hover:shadow-xl hover:scale-105">curriculum vitae</a>
+			<a href="mailto:finaritrandrianiaina@gmail.com" class="btn shadow-sm hover:shadow-xl hover:scale-105">Dire bonjour</a>
 		</div>
 	</div>
 </Atropos>

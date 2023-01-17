@@ -2,6 +2,7 @@
 	import scramble from 'svelte-typewriter/modes/scramble';
 	import Timeline from '$lib/components/timeline/Timeline.svelte';
 	import Atropos from 'atropos/svelte';
+	import { onMount } from 'svelte';
 	let x = 0,
 		y = 0;
 </script>
@@ -26,14 +27,14 @@
 		</div>
 	</div>
 </Atropos>
-<main class="container mx-auto my-1">
+<main class="container mx-auto my-1" >
 	<hr class="border-primary mb-3" />
 	<section class="px-56">
-		<h5 class="text-2xl top-0 z-10 font-thin bg-base">
+		<h5  class="text-2xl top-0 z-10 font-thin bg-base">
 			<span class="font-bold">1.</span> About Me
 		</h5>
-		<div class="flex flex-wrap">
-			<p class="w-2/3 text-center">
+		<div  class="flex flex-wrap">
+			<p class="text-center">
 				Bonjour le monde,<br /> je m'appelle
 				<span class="italic font-semibold"
 					>ANDRIANIAINA <span class="underline">Finaritra</span> Haritiana</span

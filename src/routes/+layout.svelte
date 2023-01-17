@@ -3,10 +3,23 @@
 	import concurrent from 'svelte-typewriter/modes/concurrent';
 	import { GithubIcon, LinkedinIcon } from 'svelte-feather-icons';
 	import Markee from '$lib/components/Markee/Markee.svelte';
+	import { onMount } from 'svelte';
+	// @ts-ignore
+	import rolly from "rolly.js";
+	
+	onMount(()=>{
+		const r = rolly({
+			view: document.querySelector('#parralax'),
+			// other options
+		});
+		r.init();
+	})
+	
 </script>
 
-<svelte:body  />
-<nav
+<div id="parralax">
+	
+<nav data-scene
 	class="flex justify-between z-0 py-6 bg-secondary px-16 w-full"
 >
 	<div  class="min-h-12">
@@ -55,12 +68,14 @@
 	</div>
 </div>
 
-<div  class="my-3 -z-10 min-h-100">
+<div data-scene class="my-3 -z-10 min-h-100">
 	<slot />
 </div>
-<footer class="flex flex-col justify-end h-44 self-center bg-gradient-to-t from-secondary via-transparent  to-transparent">
+<footer data-scene class="flex flex-col justify-end h-44 self-center bg-gradient-to-t from-secondary via-transparent  to-transparent">
 	<h1 class="text-center text-primary-content">©️ Made with Svelte, Tailwind and DaisyUI</h1>
 </footer>
+
+</div>
 
 <!--https://rolly.maj.digital/-->
 <style>

@@ -24,8 +24,8 @@
 		</h1>
 	</div>
 	<div class="flex justify-around  space-x-1">
-		<button class="btn btn-ghost text-secondary-content">Home</button>
-		<button class="btn btn-outline text-secondary-content">Work</button>
+		<a href="/cv_finaritra.pdf" class="btn btn-outline">curriculum vitae</a>
+		<a href="mailto:finaritrandrianiaina@gmail.com" class="btn">Dire bonjour</a>
 	</div>
 </nav>
 
@@ -62,6 +62,7 @@
 	<h1 class="text-center text-primary-content">©️ Made with Svelte, Tailwind and DaisyUI</h1>
 </footer>
 
+<!--https://rolly.maj.digital/-->
 <style>
 	.vertical-box {
 		display: flex;

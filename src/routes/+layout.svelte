@@ -112,4 +112,8 @@
 		margin: 0px auto;
 		background-color: black;
 	}
+
+	*, html {
+		scroll-behavior: smooth;
+	}
 </style>

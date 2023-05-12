@@ -1,6 +1,7 @@
 <script>
 	import scramble from 'svelte-typewriter/modes/scramble';
 	import Timeline from '$lib/components/timeline/Timeline.svelte';
+	import { ChevronsDownIcon } from 'svelte-feather-icons';
 	import Atropos from 'atropos/svelte';
 	let x = 0,
 		y = 0;
@@ -27,9 +28,12 @@
 			<a href="/cv_finaritra.pdf" class="btn btn-outline shadow-sm hover:shadow-xl hover:scale-105">curriculum vitae</a>
 			<a href="mailto:finaritrandrianiaina@gmail.com" class="btn shadow-sm hover:shadow-xl hover:scale-105">Dire bonjour</a>
 		</div>
+		<div data-atropos-offset="3" class="align-end flex justify-center space-x-2 bg-base-100">
+				<a href="#main"><ChevronsDownIcon size={'60'}/></a>
+		</div>
 	</div>
 </Atropos>
-<main class="container mx-auto my-1  flex flex-col ">
+<main id="main" class="container mx-auto my-1  flex flex-col ">
 	<hr class="border-primary mb-3" />
 	<div class="lg:w-1/2 w-full lg:px-0 px-4 self-center">
 		<section>

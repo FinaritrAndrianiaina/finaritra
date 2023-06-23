@@ -66,7 +66,7 @@
 <section>
 	<script src="https://utteranc.es/client.js"
         repo="FinaritrAndrianiaina/finaritra"
-        issue-term="pathname"
+        issue-term="title"
         label="Hello"
         theme="boxy-light"
         crossorigin="anonymous"
